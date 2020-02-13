@@ -1,0 +1,24 @@
+/*
+ Theme Name:   Cenote Child Theme
+ Theme URI:    https://byprisfeldt.dk
+ Description:  Det er et child theme der er baseret på Cenote
+ Author:       Cecillie Prisfeldt
+ Author URI:   https://byprisfeldt.dk
+ Template:     cenote
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  cenote-child
+*/
+
+
+* {
+    background-color: white;
+}
+
+.tg-container.tg-flex-container.tg-flex-space-between.tg-flex-item-centered {
+    
+    backdrop-filter: blur(8px);
+    box-shadow: 3px 4px 7px 0px #00000029;
+}

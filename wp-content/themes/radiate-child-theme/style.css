@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Radiate Child Theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Det er et child theme der er baseret på Radiate
+ Author:       Cecillie Prisfeldt
+ Author URI:   http://www.byprisfeldt.dk
+ Template:     radiate
+ Version:      1.3.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  radiate-child
+*/
+
+.elementor-5 .elementor-element.elementor-element-c769896.elementor-widget-heading .elementor-heading-title {
+    color: black; }
