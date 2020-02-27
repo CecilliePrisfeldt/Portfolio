@@ -5,7 +5,7 @@
  Author:       cecillie Prisfeldt
  Author URI:   http://example.com
  Template:     mesmerize
- Version:      1.1.2
+ Version:      1.3.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -125,5 +125,126 @@ color: #17150e;
 font-weight: 400;
 font-style: normal;
 font-size: 1rem;
+}
+
+
+
+/*overskrifter*/
+
+h3 {
+    font-size: 2rem !important;
+    font-family: roboto, sans-serif;
+    color: #3037F0!important;
+}
+
+
+
+h1 {
+    font-family: stencil-std, sans-serif !important;
+    font-size: 4rem !important;
+}
+
+h4 {
+    font-family: roboto!important;
+    font-weight: 700!important;
+    font-size: 1.5rem!important;
+}
+
+h6 {
+    font-size: 0.8rem;
+       font-family: stencil-std, sans-serif!important;
+        color:#bcbbba;
+    
+}
+
+
+p{
+    font-family: roboto;
+    text-align: left; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+    color:#17150e;
+}
+
+
+/*title*/ 
+.hero-title {
+    display:none!important; 
+}
+
+
+/*kontaktboks*/
+
+ /*kontaktboks1 border*/
+#wpcf7-f738-p13-o1 > form > p:nth-child(5) > input {
+    border-color: #3037F0;
+    border: solid 2px #3037F0;
+    
+}
+
+/*kontaktboks2 border*/
+
+#wpcf7-f738-p13-o1 > form > p:nth-child(3) > label > span > input {
+border-color: #3037F0; 
+border: solid 2px #3037F0;
+}
+
+/*kontaktboks3 border*/
+
+#wpcf7-f738-p13-o1 > form > p:nth-child(2) > label > span > input { 
+border-color: #3037F0;
+border: solid 2px #3037F0;
+    
+}
+
+/*kontaktboks4 border - til tekst*/
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+    border-color: #3037F0;
+    border: solid 2px #3037F0;
+}
+
+/*knapper*/
+
+.elementor-button span {
+    font-family: roboto, sans-serif;
+  
+}
+
+/*knap på kontakt*/
+input.wpcf7-form-control.wpcf7-submit {
+    background: #3037F0;
+    color: white;
+    font-weight: 700;
+}
+
+/*footer*/
+
+.footer-contact-boxes p {
+    text-align: center;
+}
+
+/*fjern kanter*/
+.footer-contact-boxes .col-sm-3 {
+    border: none;
+}
+
+/*fjern kant i siden*/
+.footer-contact-boxes .col-sm-3:last-child {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.center-block {
+    display: none!important;
+}
+
+
+/*link på fotoside blåfarve*/
+p > a {
+    color: #3037F0
+    
 }
 
