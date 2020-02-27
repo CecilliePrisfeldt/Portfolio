@@ -69,5 +69,61 @@ color: #17150e;
 
 
 
+/* footer*/
 
+ /* footer farve på bokse*/
+.footer-contact-boxes .footer-content {
+    background-color:  #BCBBBA!important;
+}
+  
+  
+/* footer farve på bokse*/
+.footer-contact-boxes .footer-bg-accent {
+    background-color: #BCBBBA!important;
+    
+}
+
+
+/*linje med navn så det står lige med det andet*/
+.footer-contact-boxes .col-sm-3:last-child > div {
+    flex: 1;
+    align-self: center; 
+}
+
+
+/* copyright på theme er fjernet*/
+.copyright {
+    display:none;
+}
+
+
+/* størrelse på ikoner*/
+.footer-social-icons a {
+    font-size: 40px;
+    color: #ba9477!important;
+}
+
+
+/* tekst indsat med min egen copyright*/
+.footer-social-icons::after {
+    content: "CECILLIE PRISFELDT ©2020";
+    text-align: center;
+    margin-top:18px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.footer-contact-boxes p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+/*kompetencer - tekstboks på forsiden*/
+
+.elementor-widget-heading .elementor-heading-title  {
+font-weight: 400;
+font-style: normal;
+font-size: 1rem;
+}
 
